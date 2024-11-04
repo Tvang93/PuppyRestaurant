@@ -1,3 +1,67 @@
-body {
-    background-color: lightgray;
+:root {
+    --maroon: #5F002B;
+}
+
+.bg{
+    background-image: url(/assets/photos/bgtexture.jpg);
+}
+
+@font-face {
+    font-family: Montauk-Bold;
+    src: url(/assets/fonts/Montauk-Regular/Montauk-Bold.otf);
+}
+
+@font-face {
+    font-family: Montauk-Italic;
+    src: url(/assets/fonts/Montauk-Regular/Montauk-Italic.otf);
+}
+
+@font-face {
+    font-family: Montauk-Light;
+    src: url(/assets/fonts/Montauk-Regular/Montauk-Light.otf);
+}
+
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(/assets/fonts/Montauk-Regular/Montauk-Regular.otf);
+}
+
+@font-face {
+    font-family: Fugaz-One-Regular;
+    src: url(/assets/fonts/Fugaz_One/FugazOne-Regular.ttf);
+}
+
+.Montauk-Bold{
+    font-family: Montauk-Bold;
+}
+
+
+.Montauk-Italic{
+    font-family: Montauk-Italic;
+}
+
+.Montauk-Light{
+    font-family: Montauk-Light;
+}
+
+.Montauk-Regular{
+    font-family: Montauk-Regular;
+}
+.Fugaz-One-Regular{
+    font-family: Fugaz-One-Regular;
+}
+
+.disp-flex-end{
+    display: flex;
+    justify-content: end;;
+}
+
+.text-maroon{
+    color: var(--maroon);
+}
+
+.companylogo{
+    height: 31.6px;
+    width: 100px;
+    object-fit: cover;
 }
