@@ -1,0 +1,21 @@
+/* Charles-CSS-Start */
+
+/* General-Classes-Start */
+.menuBG-C {
+    background-image: url(/assets/photos/bgtexture.jpg);
+    background-size: cover;
+}
+
+.border-bottom-C {
+    border-bottom: solid #980051 1px;
+}
+/* General-Classes-End */
+
+/* Menu-title-Start */
+.menuTitle-C {
+    background-color: white;
+    text-align: center;
+}
+/* Menu-title-End */
+
+/* Charles-CSS-End */
