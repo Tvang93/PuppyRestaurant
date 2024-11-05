@@ -1,0 +1,60 @@
+@import url(../styles.css);
+
+/* About Section CSS*/
+.body-grid {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: 4
+}
+
+.sections-grid {
+    grid-column: 2 / 16;
+}
+
+.width-size-t {
+    width: 102.5em;
+}
+
+.header-size-t {
+    height: 5em;
+    width: 102.5em;
+}
+
+.photo-fit-t {
+    object-fit: cover;
+}
+
+.pe-64-t {
+    padding-right: 4em;
+}
+
+.about-story-img-t {
+    height: 42.15625em;
+    width: 42.15625em;
+    }
+/* About Session End */
+
+
+@media screen and (max-width: 991px) {
+    .story-img-strink {
+        height: 15em;
+        width: 100%;
+        object-fit: cover;
+        object-position: 100% 36%;
+    }
+    .pe-64-t {
+        padding-right: 2em;
+    }
+    
+    .text-size-50 {
+        font-size: 30px;
+    }
+
+    .text-size-30 {
+        font-size: 50px;
+    }
+
+    .md-text-size {
+        font-size: 30px;
+    }
+}
