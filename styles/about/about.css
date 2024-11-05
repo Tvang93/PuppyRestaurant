@@ -58,3 +58,17 @@
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 575px) {
+    .text-size-50 {
+        font-size: 20px;
+    }
+
+    .text-size-20 {
+        font-size: 14px;
+    }
+
+    .text-size-30 {
+        font-size: 30px;
+    }
+}
