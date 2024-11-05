@@ -3,7 +3,7 @@
 }
 
 .bg{
-    background-image: url(/assets/photos/bgtexture.jpg);
+    background-image: url('/assets/photos/bgtexture.jpg');
 }
 
 @font-face {
@@ -66,3 +66,22 @@
     object-fit: cover;
 }
 
+.header-size-t {
+    height: 5em;
+    width: 102.5em;
+}
+
+/* About Section CSS*/
+/* About Session End */
+
+/* Photo Section CSS */
+.photo-container-size-t {
+    height: 24.875em;
+    width: 24.875em;
+    border: 10px solid white;
+}
+
+.photo-fit-t {
+    object-fit: cover;
+}
+/* Photo Section end */
