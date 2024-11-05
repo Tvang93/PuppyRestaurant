@@ -71,7 +71,19 @@
     width: 102.5em;
 }
 
+.photo-fit-t {
+    object-fit: cover;
+}
+
+.pe-64-t {
+    padding-right: 64px;
+}
+
 /* About Section CSS*/
+.about-story-img-t {
+    height: 42.15625em;
+    width: 42.15625em;
+    }
 /* About Session End */
 
 /* Photo Section CSS */
@@ -79,9 +91,5 @@
     height: 24.875em;
     width: 24.875em;
     border: 10px solid white;
-}
-
-.photo-fit-t {
-    object-fit: cover;
 }
 /* Photo Section end */
