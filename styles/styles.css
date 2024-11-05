@@ -51,6 +51,23 @@
     font-family: Fugaz-One-Regular;
 }
 
+.text-size-50 {
+    font-size: 50px;
+}
+
+.text-size-35 {
+    font-size: 35px;
+}
+
+.text-size-30 {
+    font-size: 30px;
+}
+
+.text-size-20 {
+    font-size: 20px;
+}
+
+
 .disp-flex-end{
     display: flex;
     justify-content: end;;
