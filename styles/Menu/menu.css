@@ -1,0 +1,169 @@
+@import url(/styles/styles.css);
+/* Charles-CSS-Start */
+
+/* Grid-Test-Start */
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+}
+
+.navbar-container {
+    grid-column: span 2;
+    grid-row: 1;
+}
+
+.navbar-grid {
+    display: grid;
+    grid-template-columns: 6em 1fr 6em;
+    grid-template-rows: 1;
+}
+
+.navbar-box {
+    grid-column: 2 / span 1;
+    grid-row: 1;
+}
+
+.title-container {
+    grid-column: span 2;
+    grid-row: 2;
+}
+
+.title-grid {
+    display: grid;
+    grid-template-columns: 6em 1fr 6em;
+    grid-template-rows: 1;
+}
+
+.title-box {
+    grid-column: 2 / span 1;
+    grid-row: 1;
+}
+
+.beef-container {
+    display: flex;
+    justify-content: end;
+    grid-column: 1 / span 1;
+    grid-row: 3;
+}
+
+.beef-grid {
+    display: grid;
+    grid-template-columns: 6em repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
+}
+
+.beef-box {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+}
+
+.seafood-container {
+    display: flex;
+    justify-content: start;
+    grid-column: 2 / span 1;
+    grid-row: 3;
+}
+
+.seafood-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 6em;
+    grid-template-rows: repeat(1, auto);
+}
+
+.seafood-box {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.meat-container {
+    display: flex;
+    justify-content: end;
+    grid-column: 1 / span 1;
+    grid-row: 4;
+}
+
+.meat-grid {
+    display: grid;
+    grid-template-columns: 6em repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
+}
+
+.meat-box {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+}
+
+.dessert-container {
+    display: flex;
+    justify-content: start;
+    grid-column: 2 / span 1;
+    grid-row: 4;
+}
+
+.dessert-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 6em;
+    grid-template-rows: repeat(1, auto);
+}
+
+.dessert-box {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.footer {
+    margin-top: 7em;
+    margin-bottom: 2em;
+    grid-column: span 2;
+    grid-row: 5;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 6em 1fr 6em;
+    grid-row: 5;
+}
+
+.footer-box {
+    grid-column: 2 / span 1;
+    grid-row: 5;
+}
+/* Grid-Test-End */
+
+/* General-Classes-Start */
+.card {
+    border-radius: 0px;
+}
+
+.card-body {
+    height: 41em;
+}
+
+.card-img-top {
+    border-radius: 0px;
+}
+
+.menuBG-C {
+    background-image: url(/assets/photos/bgtexture.jpg);
+    background-size: cover;
+}
+
+.border-bottom-C {
+    border-bottom: solid #980051 1px;
+    margin-bottom: 2em;
+}
+/* General-Classes-End */
+
+/* Menu-title-Start */
+.menuTitle-C {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    background-color: white;
+    text-align: center;
+}
+/* Menu-title-End */
+
+/* Charles-CSS-End */

@@ -10,414 +10,514 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/styles/charles.css" />
-    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/Menu/menu.css" />
   </head>
   <body class="bg">
     <!-- Navabar-Start -->
-    <nav class="navbar navbar-expand-lg bg-transparent">
-      <div class="container">
-        <a class="navbar-brand" href="./index.html">
-          <img src="/assets/photos/MuzzlesLogo.png" alt="Muzzle logo" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse disp-flex-end" id="navbarNav">
-          <ul class="navbar-nav Fugaz-One-Regular">
-            <li class="nav-item mx-3">
-              <a class="nav-link text-maroon" href="./pages/About.html"
-                >About</a
-              >
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link text-maroon" href="/pages/Menu.html">Menu</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link text-maroon" href="/pages/Catering.html"
-                >Catering</a
-              >
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link text-maroon" href="/pages/Photos.html"
-                >Photo</a
-              >
-            </li>
-          </ul>
+    <div class="navbar-container">
+      <nav class="navbar navbar-expand-lg bg-transparent navbar-grid">
+        <div class="container-fluid navbar-box">
+          <a class="navbar-brand" href="./index.html">
+            <img src="/assets/photos/MuzzlesLogo.png" alt="Muzzle logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse disp-flex-end" id="navbarNav">
+            <ul class="navbar-nav Fugaz-One-Regular">
+              <li class="nav-item mx-3">
+                <a class="nav-link text-maroon" href="./pages/About.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link text-maroon" href="/pages/Menu.html">Menu</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link text-maroon" href="/pages/Catering.html"
+                  >Catering</a
+                >
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link text-maroon" href="/pages/Photos.html"
+                  >Photo</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
     <!-- Navabar-End -->
 
     <!-- Menu-Start -->
 
     <!-- Menu-Title-Start -->
-    <div class="container title-container">
-      <div class="row menuTitle-C">
-        <h1>Our Menu</h1>
+    <div class="container-fluid title-container">
+      <div class="title-grid">
+        <div class="title-box">
+          <div class="row menuTitle-C ">
+            <h1 class="Fugaz-One-Regular text-size-50 mb-0 mt-1">Our Menu</h1>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Menu-Title-End -->
 
     <!-- Menu-Content-Start -->
-    <div class="col beef-card">
-      <div class="card" style="width: 18rem">
-        <img
-          src="/assets/photos/menubeef.jpg"
-          class="card-img-top"
-          alt="Menu Option Beef"
-        />
-        <div class="card-body">
-          <!-- Menu-Title/Description-Start -->
-          <h3>Sandwiches</h3>
-          <p>All sadwiches come with a side of crispy fries.</p>
-          <!-- Menu-Title/Description-End -->
+    <div class="col beef-container">
+      <div class="beef-grid">
+        <div class="beef-box">
+          <div class="card">
+            <img
+              src="/assets/photos/menubeef.jpg"
+              class="card-img-top"
+              alt="Menu Option Beef"
+            />
+            <div class="card-body">
+              <!-- Menu-Title/Description-Start -->
+              <h3 class="Fugaz-One-Regular text-size-30 lh-1">Sandwiches</h3>
+              <p class="Montauk-Regular text-size-20 lh-1 mb-5">
+                All sadwiches come with a side of crispy fries.
+              </p>
+              <!-- Menu-Title/Description-End -->
 
-          <!-- Menu-Option-One-Start -->
-          <div class="row">
-            <div class="col">
-              <h6>Sizzling Steak Sandwich</h6>
-            </div>
-            <div class="col">
-              <h6>$15.99</h6>
+              <!-- Menu-Option-One-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Sizzling Steak Sandwich
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$15.99</h6>
+                </div>
+              </div>
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                Open faced steak sandwich with grilled belle peppers and fried
+                onions.
+              </p>
+              <!-- Menu-Option-One-End -->
+
+              <!-- Menu-Option-Two-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Tenderloin Sliders
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$13.99</h6>
+                </div>
+              </div>
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                Three beef tenderloin sliders with horseradish cream and
+                blackberry bbq.
+              </p>
+              <!-- Menu-Option-Two-End -->
+
+              <!-- Menu-Option-Three-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Classic Chicken Panini
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$10.99</h6>
+                </div>
+              </div>
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                Grilled chicken with Monterey jack, romaine lettuce, tomato, and
+                cilantro.
+              </p>
+              <!-- Menu-Option-Three-End -->
+
+              <!-- Menu-Option-Four-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Smoked Turkey Club
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$8.99</h6>
+                </div>
+              </div>
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                Smoked deli turkey, maple bacon, cranberry aioli, lettuce and
+                tomatoes.
+              </p>
+              <!-- Menu-Option-Four-End -->
+
+              <!-- Menu-Option-Five-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Tuna Sandwich
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$6.99</h6>
+                </div>
+              </div>
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo
+                on toast.
+              </p>
+              <!-- Menu-Option-Five-End -->
             </div>
           </div>
-          <p class="border-bottom-C">
-            Open faced steak sandwich with grilled belle peppers and fried
-            onions.
-          </p>
-          <!-- Menu-Option-One-End -->
-
-          <!-- Menu-Option-Two-Start -->
-          <div class="row">
-            <div class="col">
-              <h6>Tenderloin Sliders</h6>
-            </div>
-            <div class="col">
-              <h6>$13.99</h6>
-            </div>
-          </div>
-          <p class="border-bottom-C">
-            Three beef tenderloin sliders with horseradish cream and blackberry
-            bbq.
-          </p>
-          <!-- Menu-Option-Two-End -->
-
-          <!-- Menu-Option-Three-Start -->
-          <div class="row">
-            <div class="col">
-              <h6>Classic Chicken Panini</h6>
-            </div>
-            <div class="col">
-              <h6>$10.99</h6>
-            </div>
-          </div>
-          <p class="border-bottom-C">
-            Grilled chicken with Monterey jack, romaine lettuce, tomato, and
-            cilantro.
-          </p>
-          <!-- Menu-Option-Three-End -->
-
-          <!-- Menu-Option-Four-Start -->
-          <div class="row">
-            <div class="col">
-              <h6>Smoked Turkey Club</h6>
-            </div>
-            <div class="col">
-              <h6>$8.99</h6>
-            </div>
-          </div>
-          <p class="border-bottom-C">
-            Smoked deli turkey, maple bacon, cranberry aioli, lettuce and
-            tomatoes.
-          </p>
-          <!-- Menu-Option-Four-End -->
-
-          <!-- Menu-Option-Five-Start -->
-          <div class="row">
-            <div class="col">
-              <h6>Tuna Sandwich</h6>
-            </div>
-            <div class="col">
-              <h6>$6.99</h6>
-            </div>
-          </div>
-          <p class="border-bottom-C">
-            Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on
-            toast.
-          </p>
-          <!-- Menu-Option-Five-End -->
         </div>
       </div>
     </div>
 
-    <div class="col seafood-card">
-      <div class="card" style="width: 18rem">
-        <img
-          src="/assets/photos/menuseafood.jpg"
-          class="card-img-top"
-          alt="Menu Option Seafood"
-        />
-        <div class="card-body">
-          <!-- Menu-Title/Description-Start -->
-          <h3>Seafood</h3>
-          <p>
-            All seafood comes with a side of rice pilaf and grilled vegetables.
-          </p>
-          <!-- Menu-Title/Description-End -->
+    <div class="col seafood-container">
+      <div class="seafood-grid">
+        <div class="seafood-box">
+          <div class="card">
+            <img
+              src="/assets/photos/menuseafood.jpg"
+              class="card-img-top"
+              alt="Menu Option Seafood"
+            />
+            <div class="card-body">
+              <!-- Menu-Title/Description-Start -->
+              <h3 class="Fugaz-One-Regular text-size-30 lh-1">Seafood</h3>
+              <p class="Montauk-Regular text-size-20 lh-1 mb-5">
+                All seafood comes with a side of rice pilaf and grilled
+                vegetables.
+              </p>
+              <!-- Menu-Title/Description-End -->
 
-          <!-- Menu-Option-One-Start -->
-          <div class="row">
-            <div class="col">
-              <h6>Honey Shrimp Skewers</h6>
-            </div>
-            <div class="col">
-              <h6>$15.99</h6>
+              <!-- Menu-Option-One-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Honey Shrimp Skewers
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$15.99</h6>
+                </div>
+              </div>
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                Tea honey glazed shrimps grilled with seasame seeds and
+                rosemary.
+              </p>
+              <!-- Menu-Option-One-End -->
+
+              <!-- Menu-Option-Two-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Grilled Salmon
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$13.99</h6>
+                </div>
+              </div>
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                Salmon grilled in a lime butter sauce.
+              </p>
+              <!-- Menu-Option-Two-End -->
+
+              <!-- Menu-Option-Three-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Grilled Tilapia
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$10.99</h6>
+                </div>
+              </div>
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                A whole grilled tilapia cooked with smoked paprika.
+              </p>
+              <!-- Menu-Option-Three-End -->
+
+              <!-- Menu-Option-Four-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Parmesan Fish Sticks
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$8.99</h6>
+                </div>
+              </div>
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                Sliced salmon in parmesan breading served with lemon dill tartar
+                sauce.
+              </p>
+              <!-- Menu-Option-Four-End -->
             </div>
           </div>
-          <p class="border-bottom-C">
-            Tea honey glazed shrimps grilled with seasame seeds and rosemary.
-          </p>
-          <!-- Menu-Option-One-End -->
-
-          <!-- Menu-Option-Two-Start -->
-          <div class="row">
-            <div class="col">
-              <h6>Grilled Salmon</h6>
-            </div>
-            <div class="col">
-              <h6>$13.99</h6>
-            </div>
-          </div>
-          <p class="border-bottom-C">Salmon grilled in a lime butter sauce.</p>
-          <!-- Menu-Option-Two-End -->
-
-          <!-- Menu-Option-Three-Start -->
-          <div class="row">
-            <div class="col">
-              <h6>Grilled Tilapia</h6>
-            </div>
-            <div class="col">
-              <h6>$10.99</h6>
-            </div>
-          </div>
-          <p class="border-bottom-C">
-            A whole grilled tilapia cooked with smoked paprika.
-          </p>
-          <!-- Menu-Option-Three-End -->
-
-          <!-- Menu-Option-Four-Start -->
-          <div class="row">
-            <div class="col">
-              <h6>Parmesan Fish Sticks</h6>
-            </div>
-            <div class="col">
-              <h6>$8.99</h6>
-            </div>
-          </div>
-          <p class="border-bottom-C">
-            Sliced salmon in parmesan breading served with lemon dill tartar
-            sauce.
-          </p>
-          <!-- Menu-Option-Four-End -->
         </div>
       </div>
     </div>
 
-      <div class="col meat-card">
-        <div class="card" style="width: 18rem">
-          <img
-            src="/assets/photos/menumeat.jpg"
-            class="card-img-top"
-            alt="Menu Option Meat"
-          />
-          <div class="card-body">
-            <!-- Menu-Title/Description-Start -->
-            <h3>On the grill</h3>
-            <p>
-              Served with corn, cheddar biscuits. and your choice of coleslaw or
-              potato salad.
-            </p>
-            <!-- Menu-Title/Description-End -->
+    <div class="col meat-container">
+      <div class="meat-grid">
+        <div class="meat-box">
+          <div class="card">
+            <img
+              src="/assets/photos/menumeat.jpg"
+              class="card-img-top"
+              alt="Menu Option Meat"
+            />
+            <div class="card-body">
+              <!-- Menu-Title/Description-Start -->
+              <h3 class="Fugaz-One-Regular text-size-30 lh-1">On the grill</h3>
+              <p class="Montauk-Regular text-size-20 lh-1 mb-5">
+                Served with corn, cheddar biscuits. and your choice of coleslaw
+                or potato salad.
+              </p>
+              <!-- Menu-Title/Description-End -->
 
-            <!-- Menu-Option-One-Start -->
-            <div class="row">
-              <div class="col">
-                <h6>Baby Back - Full Rack</h6>
+              <!-- Menu-Option-One-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Baby Back - Full Rack
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$19.99</h6>
+                </div>
               </div>
-              <div class="col">
-                <h6>$19.99</h6>
-              </div>
-            </div>
-            <p class="border-bottom-C">
-              A full rack of pork babyback ribs grilled and glazed with
-              blackberry bbq.
-            </p>
-            <!-- Menu-Option-One-End -->
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                A full rack of pork babyback ribs grilled and glazed with
+                blackberry bbq.
+              </p>
+              <!-- Menu-Option-One-End -->
 
-            <!-- Menu-Option-Two-Start -->
-            <div class="row">
-              <div class="col">
-                <h6>Baby Back - Half Rack</h6>
+              <!-- Menu-Option-Two-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Baby Back - Half Rack
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$13.99</h6>
+                </div>
               </div>
-              <div class="col">
-                <h6>$13.99</h6>
-              </div>
-            </div>
-            <p class="border-bottom-C">
-              A half rack of pork babyback ribs grilled and glazed with
-              blackberry bbq.
-            </p>
-            <!-- Menu-Option-Two-End -->
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                A half rack of pork babyback ribs grilled and glazed with
+                blackberry bbq.
+              </p>
+              <!-- Menu-Option-Two-End -->
 
-            <!-- Menu-Option-Three-Start -->
-            <div class="row">
-              <div class="col">
-                <h6>Boneless Ribeye</h6>
+              <!-- Menu-Option-Three-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Boneless Ribeye
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$25.99</h6>
+                </div>
               </div>
-              <div class="col">
-                <h6>$25.99</h6>
-              </div>
-            </div>
-            <p class="border-bottom-C">
-              A three inch thick boneless ribeye grilled in a rosemary rub and
-              butter.
-            </p>
-            <!-- Menu-Option-Three-End -->
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                A three inch thick boneless ribeye grilled in a rosemary rub and
+                butter.
+              </p>
+              <!-- Menu-Option-Three-End -->
 
-            <!-- Menu-Option-Four-Start -->
-            <div class="row">
-              <div class="col">
-                <h6>Smoked Turkey Club</h6>
+              <!-- Menu-Option-Four-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Smoked Turkey Club
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$8.99</h6>
+                </div>
               </div>
-              <div class="col">
-                <h6>$8.99</h6>
-              </div>
-            </div>
-            <p class="border-bottom-C">
-              Smoked deli turkey, maple bacon, cranberry aioli, lettuce and
-              tomatoes.
-            </p>
-            <!-- Menu-Option-Four-End -->
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                Smoked deli turkey, maple bacon, cranberry aioli, lettuce and
+                tomatoes.
+              </p>
+              <!-- Menu-Option-Four-End -->
 
-            <!-- Menu-Option-Five-Start -->
-            <div class="row">
-              <div class="col">
-                <h6>Tuna Sandwich</h6>
+              <!-- Menu-Option-Five-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Tuna Sandwich
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$6.99</h6>
+                </div>
               </div>
-              <div class="col">
-                <h6>$6.99</h6>
-              </div>
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo
+                on toast.
+              </p>
+              <!-- Menu-Option-Five-End -->
             </div>
-            <p class="border-bottom-C">
-              Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on
-              toast.
-            </p>
-            <!-- Menu-Option-Five-End -->
           </div>
         </div>
       </div>
-      <div class="col dessert-card">
-        <div class="card" style="width: 18rem">
-          <img
-            src="/assets/photos/menudesserts.jpg"
-            class="card-img-top"
-            alt="Menu Option Desserts"
-          />
-          <div class="card-body">
-            <!-- Menu-Title/Description-Start -->
-            <h3>Desserts</h3>
-            <p>
-              A shot of esspresso can be added to any dessert for an additional
-              $2.
-            </p>
-            <!-- Menu-Title/Description-End -->
+    </div>
 
-            <!-- Menu-Option-One-Start -->
-            <div class="row">
-              <div class="col">
-                <h6>Double Walnut Brownies</h6>
-              </div>
-              <div class="col">
-                <h6>$8.99</h6>
-              </div>
-            </div>
-            <p class="border-bottom-C">
-              Two brownies witha a walnut crust, ice cream and chocolate sauce.
-            </p>
-            <!-- Menu-Option-One-End -->
+    <div class="col dessert-container">
+      <div class="dessert-grid">
+        <div class="dessert-box">
+          <div class="card">
+            <img
+              src="/assets/photos/menudesserts.jpg"
+              class="card-img-top"
+              alt="Menu Option Desserts"
+            />
+            <div class="card-body">
+              <!-- Menu-Title/Description-Start -->
+              <h3 class="Fugaz-One-Regular text-size-30 lh-1">Desserts</h3>
+              <p class="Montauk-Regular text-size-20 lh-1 mb-5">
+                A shot of esspresso can be added to any dessert for an
+                additional $2.
+              </p>
+              <!-- Menu-Title/Description-End -->
 
-            <!-- Menu-Option-Two-Start -->
-            <div class="row">
-              <div class="col">
-                <h6>Cheese Cake with Chocolate Sauce</h6>
+              <!-- Menu-Option-One-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Double Walnut Brownies
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$8.99</h6>
+                </div>
               </div>
-              <div class="col">
-                <h6>$7.99</h6>
-              </div>
-            </div>
-            <p class="border-bottom-C">
-              Cheesecake with ice cream, chocolate shavings and chocolate sauce.
-            </p>
-            <!-- Menu-Option-Two-End -->
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                Two brownies witha a walnut crust, ice cream and chocolate
+                sauce.
+              </p>
+              <!-- Menu-Option-One-End -->
 
-            <!-- Menu-Option-Three-Start -->
-            <div class="row">
-              <div class="col">
-                <h6>Tripple Chocolate Brownie</h6>
+              <!-- Menu-Option-Two-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Cheese Cake with Chocolate Sauce
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$7.99</h6>
+                </div>
               </div>
-              <div class="col">
-                <h6>$6.99</h6>
-              </div>
-            </div>
-            <p class="border-bottom-C">
-              A tripple chocolate brownie served with vanilla ice cream and
-              walnuts.
-            </p>
-            <!-- Menu-Option-Three-End -->
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                Cheesecake with ice cream, chocolate shavings and chocolate
+                sauce.
+              </p>
+              <!-- Menu-Option-Two-End -->
 
-            <!-- Menu-Option-Four-Start -->
-            <div class="row">
-              <div class="col">
-                <h6>House Made Shaved Gelato and Cookies</h6>
+              <!-- Menu-Option-Three-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Tripple Chocolate Brownie
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$6.99</h6>
+                </div>
               </div>
-              <div class="col">
-                <h6>$5.99</h6>
-              </div>
-            </div>
-            <p class="border-bottom-C">
-              Your chouce of shaved gelato with whole cookies. Options change
-              daily.
-            </p>
-            <!-- Menu-Option-Four-End -->
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                A tripple chocolate brownie served with vanilla ice cream and
+                walnuts.
+              </p>
+              <!-- Menu-Option-Three-End -->
 
-            <!-- Menu-Option-Five-Start -->
-            <div class="row">
-              <div class="col">
-                <h6>Grilled Peaches and Ice Cream</h6>
+              <!-- Menu-Option-Four-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    House Made Shaved Gelato and Cookies
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$5.99</h6>
+                </div>
               </div>
-              <div class="col">
-                <h6>$4.99</h6>
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                Your chouce of shaved gelato with whole cookies. Options change
+                daily.
+              </p>
+              <!-- Menu-Option-Four-End -->
+
+              <!-- Menu-Option-Five-Start -->
+              <div class="row">
+                <div class="col-10">
+                  <h6 class="Montauk-Regular text-size-30 lh-1 mb-0">
+                    Grilled Peaches and Ice Cream
+                  </h6>
+                </div>
+                <div class="col">
+                  <h6 class="Montauk-Regular text-size-35 lh-1 mb-0">$4.99</h6>
+                </div>
               </div>
+              <p class="border-bottom-C Montauk-Regular text-size-20">
+                Grilled peaches in cinnamon and brown sugar glaze with ice
+                cream.
+              </p>
+              <!-- Menu-Option-Five-End -->
             </div>
-            <p class="border-bottom-C">
-              Grilled peaches in cinnamon and brown sugar glaze with ice cream.
-            </p>
-            <!-- Menu-Option-Five-End -->
           </div>
         </div>
       </div>
+    </div>
     <!-- Menu-Content-End -->
 
     <!-- Menu-End -->
+
+    <!-- Footer-Start -->
+    <div class="container-fluid footer">
+      <div class="footer-grid">
+        <div class="footer-box">
+          <div class="row d-flex justify-content-between">
+            <div class="col-6 text-maroon Montauk-Regular align-items-center">
+              <p class="lh-1">1357 Mutt Street, Rottweiler CA. 12345</p>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+              <img
+                class="companylogo"
+                src="/assets/photos/CompanyLogo.png"
+                alt="Company Logo"
+              />
+            </div>
+          </div>
+          <div class="row d-flex justify-content-between">
+            <div class="col-6 text-maroon Montauk-Regular align-items-center">
+              <p class="lh-1">Phone: 123-456-7890</p>
+            </div>
+            <div
+              class="col-6 text-maroon Montauk-Regular d-flex justify-content-end align-items-center"
+            >
+              <p class="lh-1">Copyright © Muzzles Restaurant</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer-End -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
