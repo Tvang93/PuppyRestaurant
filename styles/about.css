@@ -1,0 +1,35 @@
+@import url(./styles.css);
+
+/* About Section CSS*/
+.body-grid {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: 4
+}
+
+.sections-grid {
+    grid-column: 2 / 16;
+}
+
+.width-size-t {
+    width: 102.5em;
+}
+
+.header-size-t {
+    height: 5em;
+    width: 102.5em;
+}
+
+.photo-fit-t {
+    object-fit: cover;
+}
+
+.pe-64-t {
+    padding-right: 64px;
+}
+
+.about-story-img-t {
+    height: 42.15625em;
+    width: 42.15625em;
+    }
+/* About Session End */
