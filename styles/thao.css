@@ -3,7 +3,7 @@
 }
 
 .bg{
-    background-image: url(/assets/photos/bgtexture.jpg);
+    background-image: url('/assets/photos/bgtexture.jpg');
 }
 
 @font-face {
@@ -82,3 +82,35 @@
     width: 100px;
     object-fit: cover;
 }
+
+.width-size-t {
+    width: 102.5em;
+}
+
+.header-size-t {
+    height: 5em;
+    width: 102.5em;
+}
+
+.photo-fit-t {
+    object-fit: cover;
+}
+
+.pe-64-t {
+    padding-right: 64px;
+}
+
+/* About Section CSS*/
+.about-story-img-t {
+    height: 42.15625em;
+    width: 42.15625em;
+    }
+/* About Session End */
+
+/* Photo Section CSS */
+.photo-container-size-t {
+    height: 24.875em;
+    width: 24.875em;
+    border: 10px solid white;
+}
+/* Photo Section end */
