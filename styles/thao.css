@@ -66,6 +66,10 @@
     object-fit: cover;
 }
 
+.width-size-t {
+    width: 102.5em;
+}
+
 .header-size-t {
     height: 5em;
     width: 102.5em;
