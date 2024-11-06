@@ -9,6 +9,7 @@
 
 .sections-grid {
     grid-column: 2 / 16;
+    margin: 0 1.25em;
 }
 
 .width-size-t {
