@@ -1,0 +1,58 @@
+@import url(../styles.css);
+
+/* Photo Section CSS */
+.body-grid {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: 4
+}
+
+.sections-grid {
+    grid-column: 2 / 16;
+}
+
+.width-size-t {
+    width: 102.5em;
+}
+
+.header-size-t {
+    height: 5em;
+    width: 102.5em;
+}
+
+.photo-fit-t {
+    object-fit: cover;
+}
+
+.pe-64-t {
+    padding-right: 64px;
+}
+
+.photo-container-size-t {
+    height: 24.875em;
+    width: 24.875em;
+    border: 10px solid white;
+}
+/* Photo Section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body-grid {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: 4
+}
+
+.sections-grid {
+    grid-column: 2 / 16;
+}
