@@ -1,0 +1,97 @@
+@import url('/styles/styles.css');
+
+
+body{
+
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: auto auto auto auto auto;
+    gap: 20px;
+
+}
+
+.navbara{
+    grid-column: 2 / 16;
+}
+
+
+.row3{
+    grid-row: 3;
+    grid-column: 2 / 16;
+}
+
+.row4{
+    grid-row: 4;
+    grid-column: 2 / 8;
+}
+
+.row4too{
+
+    grid-row: 4;
+    grid-column: 8 / 16;
+    background-color: white;
+    
+}
+
+.row5{
+    grid-row: 5;
+    grid-column: 2 / 16;
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 16px;
+}
+
+.row6{
+    grid-row: 6;
+    grid-column: 2/ 16;
+}
+
+h1{
+    grid-column: 1 / 4;
+    grid-row: 2;
+    background-color: white;
+    text-align: center;
+   padding: 10px;
+}
+
+
+
+
+.homehero{
+    height: 600px;
+}
+
+.text-size-50 {
+    font-size: 50px;
+}
+
+.Fugaz-One-Regular{
+    font-family: Fugaz-One-Regular;
+}
+
+.text-size-20 {
+    font-size: 20px;
+}
+
+.text-size-30 {
+    font-size: 30px;
+}
+
+
+.text-maroon{
+    color: var(--maroon);
+}
+
+.Montauk-Regular{
+    font-family: Montauk-Regular;
+}
+
+.border{
+    border-radius: 0px;
+}
+
+.text-maroon{
+    color: var(--maroon);
+}
+

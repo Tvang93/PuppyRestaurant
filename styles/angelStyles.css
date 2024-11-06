@@ -2,3 +2,27 @@
     height: 600px;
 }
 
+.text-size-50 {
+    font-size: 50px;
+}
+
+.Fugaz-One-Regular{
+    font-family: Fugaz-One-Regular;
+}
+
+.text-size-20 {
+    font-size: 20px;
+}
+
+.text-maroon{
+    color: var(--maroon);
+}
+
+.Montauk-Regular{
+    font-family: Montauk-Regular;
+}
+
+.border{
+    border-radius: 0px;
+}
+
