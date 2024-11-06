@@ -3,16 +3,26 @@
 /* Photo Section CSS */
 .body-grid {
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: 4
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, auto);
 }
 
 .sections-grid {
     grid-column: 2 / 16;
+    margin: 0 1.25em;
 }
 
-.width-size-t {
-    width: 102.5em;
+.photos-grid {
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3 , 1fr);
+    gap: 1.125em 1em;
+
+}
+
+.grid-margins {
+    margin: 0 1.25em;
 }
 
 .header-size-t {
@@ -28,11 +38,19 @@
     padding-right: 64px;
 }
 
-.photo-container-size-t {
-    height: 24.875em;
-    width: 24.875em;
+.photo-border {
     border: 10px solid white;
+    max-width: 24.875em;
+    max-width: 24.875em;
+    /* margin: 0.5em; */
 }
+
+/* .photo-border img {
+    max-width: 23.625em;
+    max-width: 23.625em;
+} */
+
+
 /* Photo Section end */
 
 
