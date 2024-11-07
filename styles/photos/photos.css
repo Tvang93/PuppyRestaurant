@@ -22,7 +22,7 @@
     margin: 0 1.25em;
 }
 
-.photo-border {
+.photos-grid div {
     border: 10px solid white;
 }
 
