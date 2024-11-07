@@ -173,8 +173,6 @@ body {
     }
 
     body {
-        min-height: 100vh;
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, auto);
         gap: 10px;
@@ -218,10 +216,8 @@ body {
     }
 
     body {
-        min-height: 100vh;
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, auto);
+        grid-template-rows: repeat(7, auto);
         gap: 10px;
     }
 
@@ -229,11 +225,57 @@ body {
         height: auto;
     }
 
-    .test {
-        margin-left: 4%;
-        margin-right: 4%;
+    /* beef-start */
+    .beef-container {
+        display: flex;
         grid-column: span 2;
         grid-row: 3;
+    }
+    
+    .beef-grid {
+        display: block;
+    }
+    /* beef-end */
+
+    /* seafood-start */
+    .seafood-container {
+        display: flex;
+        grid-column: span 2;
+        grid-row: 4;
+    }
+    
+    .seafood-grid {
+        display: block;
+    }
+    /* seafood-end */
+
+    /* meat-start */
+    .meat-container {
+        display: flex;
+        grid-column: span 2;
+        grid-row: 5;
+    }
+    
+    .meat-grid {
+        display: block;
+    }
+    /* meat-end */
+
+    /* dessert-start */
+    .dessert-container {
+        display: flex;
+        grid-column: span 2;
+        grid-row: 6;
+    }
+
+    .dessert-grid {
+        display: block;
+    }
+    /* dessert-end */
+
+    .mobile-margin {
+        margin-left: 4%;
+        margin-right: 4%;  
     }
 
     .navbar-grid {
@@ -251,6 +293,10 @@ body {
     .title-box {
         grid-column: 1 / span 2;
         grid-row: 1;
+    }
+
+    .footer {
+        grid-row: 7;
     }
 
     .footer-grid {
