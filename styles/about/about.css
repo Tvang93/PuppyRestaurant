@@ -4,48 +4,117 @@
 .body-grid {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: 4
 }
 
 .sections-grid {
     grid-column: 2 / 16;
+    margin: 0 1.25em
 }
 
-.width-size-t {
-    width: 102.5em;
+/* Story CSS */
+.story-grid {
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 41.1281% auto;
+    column-gap: 0.96875em;
 }
 
+.story-img-box {
+    height: 42.15625em;
+    width: 42.15625em;
+}
+
+.story-img-fill {
+    width: 100%;
+    object-fit: fill;
+}
+
+.story-text p {
+    padding-right: 4rem;
+    font: 20px 'Montauk-Light';
+    line-height: 1;
+}
+
+.ps-20 {
+    padding-left: 2.5em;
+}
+/* Story CSS End */
+
+/* Card Header CSS */
 .header-size-t {
     height: 5em;
     width: 102.5em;
 }
+/* Card Header End */
 
-.photo-fit-t {
-    object-fit: cover;
+
+/* Card CSS */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem 1rem;
 }
 
-.pe-64-t {
-    padding-right: 4em;
+.card-body {
+    padding: 0.8125rem 1.875rem 2.4375rem !important;
 }
 
-.about-story-img-t {
-    height: 42.15625em;
-    width: 42.15625em;
+.card-body h1 {
+    line-height: 2.75rem;
+}
+
+.card {
+    border-radius: 0;
+    border: 0;
+}
+
+.card img {
+    border-radius: 0;
+}
+
+.card-img-size {
+    max-width: 33.65em;
+    max-height: 33.65em;
+}
+
+.card-size {
+    max-width: 33.65em;
+}
+/* Card CSS End */
+
+@media (max-width: 1750px) {
+    .story-grid {
+        grid-template-columns: 1fr;
     }
-/* About Session End */
 
-
-@media screen and (max-width: 991px) {
-    .story-img-strink {
-        height: 15em;
-        width: 100%;
+    .story-img-fill{
+        height: 25.9375rem;
         object-fit: cover;
         object-position: 100% 36%;
     }
-    .pe-64-t {
-        padding-right: 2em;
+}
+
+@media (max-width: 1350px) {
+    /* Story CSS */
+    .story-img-fill {
+        height: 20em;
     }
-    
+
+    /* Card CSS */
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .story-img-fill {
+        height: 15em;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+   
     .text-size-50 {
         font-size: 30px;
     }
@@ -60,12 +129,16 @@
 }
 
 @media screen and (max-width: 575px) {
+    .story-text p {
+        font-size: 16px;
+    }
+
     .text-size-50 {
         font-size: 20px;
     }
 
     .text-size-20 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .text-size-30 {
