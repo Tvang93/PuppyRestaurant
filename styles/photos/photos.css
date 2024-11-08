@@ -28,36 +28,32 @@
 
 @media screen and (max-width: 1999px) {
     .photos-grid {
-        min-height: 100%;
-        display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 1.125em 1em;
     }
 }
 
 @media screen and (max-width: 1199px) {
     .photos-grid {
-        min-height: 100%;
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 1.125em 1em;
     }
 }
 
 @media screen and (max-width: 991px) {
     .photos-grid {
-        min-height: 100%;
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 1.125em 1em;
+    }
+
+    .text-size-50 {
+        font-size: 40px;
     }
 }
 
 @media screen and (max-width: 522px) {
     .photos-grid {
-        min-height: 100%;
-        display: grid;
         grid-template-columns: 1fr;
-        gap: 1.125em 1em;
+    }
+
+    .text-size-50 {
+        font-size: 30px;
     }
 }
