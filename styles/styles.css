@@ -85,3 +85,13 @@
     width: 100px;
     object-fit: cover;
 }
+
+@media (max-width: 768px) {
+    .col-5, .col-7 {
+      width: 100%;  
+      display: block; 
+      
+    }
+
+
+  }
