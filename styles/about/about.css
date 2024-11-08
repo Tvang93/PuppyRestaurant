@@ -11,13 +11,38 @@
     margin: 0 1.25em
 }
 
+/* Story CSS */
 .story-grid {
     min-height: 100%;
     display: grid;
-    grid-template-columns: 41.52% 58.48%;
-    gap: 0.96875em
+    grid-template-columns: 41.1281% auto;
+    column-gap: 0.96875em;
 }
 
+.story-img-box {
+    height: 42.15625em;
+    width: 42.15625em;
+}
+
+.story-img-fill {
+    width: 100%;
+    object-fit: fill;
+}
+
+.story-text p {
+    padding-right: 4rem;
+    font: 20px 'Montauk-Light';
+    line-height: 1;
+}
+
+.ps-20 {
+    padding-left: 2.5em;
+}
+
+
+/* Story CSS End */
+
+/* Card CSS */
 .card {
     border-radius: 0;
 }
@@ -52,32 +77,33 @@
     object-fit: cover;
 }
 
-.pe-64-t {
-    padding-right: 4em;
-}
 
-.about-story-pic-box {
-    height: 42.15625em;
-    width: 42.15625em;
-}
 
-.about-story-img-t {
-    object-fit: fill;
-    }
 /* About Session End */
 
+@media (max-width: 1750px) {
+    .story-grid {
+        grid-template-columns: 1fr;
+    }
 
-@media screen and (max-width: 991px) {
-    .story-img-strink {
-        height: 15em;
-        width: 100%;
+    .story-img-fill{
+        height: 25.9375rem;
         object-fit: cover;
         object-position: 100% 36%;
     }
-    .pe-64-t {
-        padding-right: 2em;
+}
+
+@media (max-width: 1350px) {
+    .story-img-fill {
+        height: 20em;
     }
-    
+}
+
+@media screen and (max-width: 991px) {
+    .story-img-fill {
+        height: 15em;
+    }
+   
     .text-size-50 {
         font-size: 30px;
     }
