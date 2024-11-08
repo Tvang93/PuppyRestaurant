@@ -1,9 +1,15 @@
+.disp-flex-end{
+    display: flex;
+    justify-content: end;
+}
+
+
 :root {
     --maroon: #5F002B;
 }
 
 .bg{
-    background-image: url(/assets/photos/bgtexture.jpg);
+    background-image: url(../assets/photos/bgtexture.jpg);
 }
 
 @font-face {
@@ -68,10 +74,7 @@
 }
 
 
-.disp-flex-end{
-    display: flex;
-    justify-content: end;;
-}
+
 
 .text-maroon{
     color: var(--maroon);
