@@ -49,11 +49,21 @@
 }
 
 @media screen and (max-width: 522px) {
+    /* Navbar */
+    .navbar-brand {
+        width: 65%;
+    }
+
+    /* Section */
     .photos-grid {
         grid-template-columns: 1fr;
     }
 
     .text-size-50 {
         font-size: 30px;
+    }
+
+    .text-size-20 {
+        font-size: 16px;
     }
 }
