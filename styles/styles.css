@@ -14,27 +14,27 @@
 
 @font-face {
     font-family: Montauk-Bold;
-    src: url(/assets/fonts/Montauk-Regular/Montauk-Bold.otf);
+    src: url(../assets/fonts/Montauk-Regular/Montauk-Bold.otf);
 }
 
 @font-face {
     font-family: Montauk-Italic;
-    src: url(/assets/fonts/Montauk-Regular/Montauk-Italic.otf);
+    src: url(../assets/fonts/Montauk-Regular/Montauk-Italic.otf);
 }
 
 @font-face {
     font-family: Montauk-Light;
-    src: url(/assets/fonts/Montauk-Regular/Montauk-Light.otf);
+    src: url(../assets/fonts/Montauk-Regular/Montauk-Light.otf);
 }
 
 @font-face {
     font-family: Montauk-Regular;
-    src: url(/assets/fonts/Montauk-Regular/Montauk-Regular.otf);
+    src: url(../assets/fonts/Montauk-Regular/Montauk-Regular.otf);
 }
 
 @font-face {
     font-family: Fugaz-One-Regular;
-    src: url(/assets/fonts/Fugaz_One/FugazOne-Regular.ttf);
+    src: url(../assets/fonts/Fugaz_One/FugazOne-Regular.ttf);
 }
 
 .Montauk-Bold{
