@@ -40,18 +40,32 @@
 }
 /* Story CSS End */
 
+/* Card Header CSS */
+.header-size-t {
+    height: 5em;
+    width: 102.5em;
+}
+/* Card Header End */
+
+
 /* Card CSS */
 .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.125rem 1rem;
+    gap: 1.25rem 1rem;
 }
 
+.card-body {
+    padding: 0.8125rem 1.875rem 2.4375rem !important;
+}
 
-
+.card-body h1 {
+    line-height: 2.75rem;
+}
 
 .card {
     border-radius: 0;
+    border: 0;
 }
 
 .card img {
@@ -66,33 +80,7 @@
 .card-size {
     max-width: 33.65em;
 }
-
-.card-body {
-    padding: 1.875rem 1.875rem 2.4375rem !important;
-}
-
-.card-body h1 {
-    line-height: 2.75rem;
-}
-
-
-
-.width-size-t {
-    width: 102.5em;
-}
-
-.header-size-t {
-    height: 5em;
-    width: 102.5em;
-}
-
-.photo-fit-t {
-    object-fit: cover;
-}
-
-
-
-/* About Session End */
+/* Card CSS End */
 
 @media (max-width: 1750px) {
     .story-grid {
@@ -107,14 +95,24 @@
 }
 
 @media (max-width: 1350px) {
+    /* Story CSS */
     .story-img-fill {
         height: 20em;
+    }
+
+    /* Card CSS */
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 991px) {
     .story-img-fill {
         height: 15em;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
     }
    
     .text-size-50 {
@@ -131,12 +129,16 @@
 }
 
 @media screen and (max-width: 575px) {
+    .story-text p {
+        font-size: 16px;
+    }
+
     .text-size-50 {
         font-size: 20px;
     }
 
     .text-size-20 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .text-size-30 {
