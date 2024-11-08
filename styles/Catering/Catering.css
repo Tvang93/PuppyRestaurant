@@ -103,7 +103,9 @@ h1{
     margin-top: 3rem;
 }
 
-
+.immgg {
+    width: 100%;
+}
 
 @media (max-width: 769px) {
 
@@ -143,7 +145,7 @@ h1{
 
   }
 
-  @media (max-width: 426px){
+  @media (max-width: 600px){
     
     body{
 
