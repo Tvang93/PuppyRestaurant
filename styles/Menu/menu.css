@@ -146,11 +146,6 @@ body {
     border-radius: 0px;
 }
 
-.menuBG-C {
-    background-image: url(/assets/photos/bgtexture.jpg);
-    background-size: cover;
-}
-
 .border-bottom-C {
     border-bottom: solid #980051 1px;
     margin-bottom: 2em;
