@@ -50,7 +50,9 @@
 
 @media screen and (max-width: 522px) {
     /* Navbar */
-    
+    .navbar-brand {
+        width: 65%;
+    }
 
     /* Section */
     .photos-grid {
