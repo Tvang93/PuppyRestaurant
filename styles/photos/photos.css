@@ -49,6 +49,10 @@
 }
 
 @media screen and (max-width: 522px) {
+    /* Navbar */
+    
+
+    /* Section */
     .photos-grid {
         grid-template-columns: 1fr;
     }
