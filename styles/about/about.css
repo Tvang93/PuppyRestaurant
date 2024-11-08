@@ -38,11 +38,18 @@
 .ps-20 {
     padding-left: 2.5em;
 }
-
-
 /* Story CSS End */
 
 /* Card CSS */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.125rem 1rem;
+}
+
+
+
+
 .card {
     border-radius: 0;
 }
@@ -60,7 +67,13 @@
     max-width: 33.65em;
 }
 
+.card-body {
+    padding: 1.875rem 1.875rem 2.4375rem !important;
+}
 
+.card-body h1 {
+    line-height: 2.75rem;
+}
 
 
 
